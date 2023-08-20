@@ -4,7 +4,7 @@ import { AiOutlineMenu } from "react-icons/ai";
 import Avatar from "../Avatar";
 import MenuItem from "./MenuItem";
 import { useCallback, useState } from "react";
-import useRegisterModal from "@/app/Hooks/useRegisterModal";
+import useRegisterModal from "@/app/hooks/useRegisterModal";
 
 const UserMenu: React.FC = () => {
   const registerModal = useRegisterModal();
